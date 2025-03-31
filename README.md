@@ -134,13 +134,8 @@ Project Link: [https://github.com/Kishan0610/django-react-filemanager](https://g
 ![Screenshot 2025-03-31 142404](https://github.com/user-attachments/assets/36c6661c-0407-41c9-b756-12c2dc7dd143)
 
 ## Admin
-![Screenshot 2025-03-31 152044](https://github.com/user-attachments/assets/9bb6c17c-ef72-4404-a7f9-90c5956e873c)
+![Screenshot 2025-03-31 142520](https://github.com/user-attachments/assets/0fca0fe6-f4e0-41fc-88bd-17db084a4142)
 
-
-
-
- **Admin**:
-![Screenshot 2025-03-31 142520](https://github.com/user-attachments/assets/21a81d62-8e3b-494f-b578-b821981eb9fd)
 
 
 
