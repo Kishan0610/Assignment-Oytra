@@ -1,0 +1,16 @@
+# Django
+*.pyc
+*~
+__pycache__
+db.sqlite3
+media
+.env
+venv/
+
+# Node/React
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+.DS_Store
+.env.local
