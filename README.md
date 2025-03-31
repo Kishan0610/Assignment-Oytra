@@ -1,8 +1,8 @@
 # Django-React File Management System
 
 A full-stack file management application with user authentication and file upload/download capabilities.
+![Screenshot 2025-03-31 142039](https://github.com/user-attachments/assets/7aec3196-016d-4d69-8606-66153e62aaeb)
 
-![Screenshot 2025-03-31 142039](https://github.com/user-attachments/assets/6f130d23-14f3-464b-951e-340b4295801d)
 
 ## Features
 
@@ -125,12 +125,19 @@ Project Link: [https://github.com/Kishan0610/django-react-filemanager](https://g
 
 
 ## Screenshots
-![Screenshot 2025-03-31 142003](https://github.com/user-attachments/assets/ec5cf5de-f2de-4fac-bd79-dd81426d35fb)
-![Screenshot 2025-03-31 142028](https://github.com/user-attachments/assets/95f9217d-a0c7-4984-a503-4173785c0087)
-![Screenshot 2025-03-31 142039](https://github.com/user-attachments/assets/08bc420e-dec0-4139-a9e4-d12fb8acbca6)
-![Screenshot 2025-03-31 142333](https://github.com/user-attachments/assets/f22be42c-c820-4759-88c9-f5e2977da24e)
-![Screenshot 2025-03-31 142346](https://github.com/user-attachments/assets/d34b2b12-6c6a-4185-963c-fb2b3c247694)
-![Screenshot 2025-03-31 142404](https://github.com/user-attachments/assets/618fd93f-dce0-4280-8e37-0a37627837ab)
+
+![Screenshot 2025-03-31 142003](https://github.com/user-attachments/assets/e55654bb-4fa3-46d0-843f-c3ccb79e0a2e)
+![Screenshot 2025-03-31 142028](https://github.com/user-attachments/assets/b6eddb7d-0764-49e7-bc9b-860fc6ed950f)
+![Screenshot 2025-03-31 142039](https://github.com/user-attachments/assets/ef4252a0-08a9-42ee-8264-034523d302f1)
+![Screenshot 2025-03-31 142333](https://github.com/user-attachments/assets/1c855545-144e-4b48-ac77-76b2898b801a)
+![Screenshot 2025-03-31 142346](https://github.com/user-attachments/assets/4ff78f14-88c6-42bc-a968-d19ba976aba1)
+![Screenshot 2025-03-31 142404](https://github.com/user-attachments/assets/36c6661c-0407-41c9-b756-12c2dc7dd143)
+
+## Admin
+![Screenshot 2025-03-31 152044](https://github.com/user-attachments/assets/9bb6c17c-ef72-4404-a7f9-90c5956e873c)
+
+
+
 
  **Admin**:
 ![Screenshot 2025-03-31 142520](https://github.com/user-attachments/assets/21a81d62-8e3b-494f-b578-b821981eb9fd)
