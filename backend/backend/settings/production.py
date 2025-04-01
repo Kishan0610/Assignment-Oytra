@@ -1,8 +1,13 @@
 
-from .settings import * 
+from .base import * 
+
+from backend.settings.base import *
+import dj_database_url
 
 DEBUG = False
 ALLOWED_HOSTS = ['file-management-by-kishan.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 CORS_ALLOWED_ORIGINS = [
     "file-management-by-kishan.vercel.app",

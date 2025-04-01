@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Exit on errors
 set -o errexit
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
-python manage.py migrate --settings=backend.prod_settings
+# Apply database migrations
+python manage.py migrate --noinput
 
 # Collect static files
-python manage.py collectstatic --noinput --settings=backend.prod_settings
+python manage.py collectstatic --noinput
