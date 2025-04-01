@@ -1,5 +1,5 @@
 #!/bin/bash
-exec gunicorn backend.wsgi:application \
+exec gunicorn backend.wsgi:backend \
   --bind 0.0.0.0:$PORT \
   --workers 3 \
-  --pythonpath /opt/render/project/src 
+  --pythonpath backend \ 
