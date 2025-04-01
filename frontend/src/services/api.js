@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://file-management-by-kishan.vercel.app',
+    baseURL: 'http://127.0.0.1:8000/',
 });
 
 // Set token from localStorage if it exists
