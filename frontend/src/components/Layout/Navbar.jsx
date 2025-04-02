@@ -46,9 +46,12 @@ const Navbar = () => {
                     <div className="hidden sm:ml-6 sm:flex sm:items-center">
                         {isAuthenticated ? (
                             <div className="flex items-center">
-                                <span className="text-sm text-gray-500 mr-4">
+                                <Link
+                                    to="/profile"
+                                    className="text-lg text-gray-500 mr-4"
+                                >
                                     Hi, {user?.username}
-                                </span>
+                                </Link>
                                 <button
                                     onClick={handleLogout}
                                     className="px-3 py-1 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700"
