@@ -24,6 +24,7 @@ const UserStats = ({ data }) => {
             </ResponsiveContainer>
         </div>
     );
+    
 };
 
 export default UserStats;
