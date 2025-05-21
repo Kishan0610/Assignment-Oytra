@@ -9,15 +9,32 @@ const HomePage = () => {
             <div className="flex-grow flex items-center">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 w-full">
                     <div className="text-center">
-                        <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl mb-6">
+                        <div className="flex justify-center mb-4">
+                            <img 
+                                src="/favicon-File-Management.webp" 
+                                alt="File Management Logo"
+                                className="h-32 w-auto"
+                            />
+                        </div>
+                        
+                        <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
                             File Management System
                         </h1>
                         <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500 mb-8">
-                            {isAuthenticated 
-                                ? `Welcome back, ${user?.username || 'User'}!` 
-                                : 'Please login or register to get started'
-                            }
-                        </p>
+                            {isAuthenticated ? (
+                                <>
+                                Welcome back,{' '}
+                                <span className="font-bold text-gray-900">
+                                    {user?.username
+                                    ? user.username.charAt(0).toUpperCase() + user.username.slice(1)
+                                    : 'User'}
+                                </span>
+                                !
+                                </>
+                            ) : (
+                                'Please login or register to get started'
+                            )}
+                            </p>
                         
                         <div className="flex justify-center space-x-4 mt-8">
                             {isAuthenticated ? (

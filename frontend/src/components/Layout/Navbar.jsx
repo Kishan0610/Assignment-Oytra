@@ -16,8 +16,17 @@ const Navbar = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
-                            <Link to="/" className="text-xl font-bold text-gray-900">
-                                FileManager
+                            <Link to="/" className="flex items-center">
+                                {/* Logo image added here */}
+                                <img 
+                                    src="/favicon-File-Management.webp" 
+                                    alt="File Management Logo"
+                                    className="h-8 w-auto" // Adjust height as needed
+                                />
+                                {/* Optional: Keep text next to logo */}
+                                <span className="text-xl font-bold text-gray-900 ml-2">
+                                    FileManager
+                                </span>
                             </Link>
                         </div>
                         {isAuthenticated && (
